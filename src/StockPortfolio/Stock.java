@@ -1,3 +1,5 @@
+package StockPortfolio;
+
 class Stock {
     String stockName;
     int numberOfShares;

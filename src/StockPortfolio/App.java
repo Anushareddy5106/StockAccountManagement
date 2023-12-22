@@ -1,3 +1,5 @@
+package StockPortfolio;
+
 import java.util.Scanner;
 
 public class App {
@@ -21,7 +23,6 @@ public class App {
 
     public static void main(String[] args) {
 
-        // StockPortfolio
         StockPortfolio stockPortfolio = new StockPortfolio();
 
         System.out.print("Enter the number of stocks: ");
@@ -31,6 +32,5 @@ public class App {
 
         stockPortfolio.printStockReport();
 
-        scanner.close();
     }
 }
